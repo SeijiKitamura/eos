@@ -71,5 +71,17 @@ CSVは25列で構成され、仕入先コード・伝票番号・JANコード・
 | 店休日 | なし |
 | 営業時間 | 9:30-22:00 |
 | ホームページ | https://market.kita-grp.co.jp |
-| Email | info@kita-grp.co.jp |
+| TEL/FAX | 03-3771-8284 / 03-3774-9541 |
 | 店舗数 | 1 |
+
+## EOS担当
+- 株式会社　スーパーキタムラ　EOS担当　北村　成吏
+- Email: seiji_kitamura@kita-grp.co.jp
+
+## リンク
+
+- [CSVファイル仕様](docs/csv-format.md)
+- [データ作成スケジュール](docs/data-schedule.md)
+- [Q&A](docs/faq.md)
+- [FTPについて](docs/ftp.md)
+- [上記4つを1つにまとめたPDFファイル](specification.pdf)
