@@ -23,7 +23,8 @@
 | 項目 | 値 |
 | --- | --- |
 | ファイル名 | 固定（`XXXX.csv`、Xは4桁の数字） |
-| 文字コード | UTF-8 |
+| 文字コード | UTF-8 （BOMなし）|
+| 改行コード | LF |
 | データ形式 | CSV（各列をカンマ区切り） |
 | 列名 | なし |
 | 並び順 | 伝票番号、伝票行で昇順 |
@@ -84,5 +85,5 @@ CSVは25列で構成され、仕入先コード・伝票番号・JANコード・
 - [データ作成スケジュール](docs/data-schedule.md)
 - [Q&A](docs/faq.md)
 - [FTPについて](docs/ftp.md)
-- [上記4つを1つにまとめたPDFファイル](specification.pdf)
 - [サンプルCSV（架空データ）](sample/1234.csv)
+- [上記4つを1つにまとめたPDFファイル](specification.pdf)
