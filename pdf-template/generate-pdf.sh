@@ -35,7 +35,7 @@ trap cleanup EXIT
 # 1. Markdown -> HTML fragment (pandoc's gfm reader natively turns
 #    > [!NOTE] / [!TIP] blockquotes into <div class="note">/<div class="tip">,
 #    matching the CSS in header.html).
-"$PANDOC" -f gfm -t html --wrap=preserve "$MD_DIR/$MD_BASENAME" -o "$WORK/body.html"
+"$PANDOC" -f gfm+fenced_divs -t html --wrap=preserve "$MD_DIR/$MD_BASENAME" -o "$WORK/body.html"
 
 # 2. Fill in the header template (title + base href for relative image/link paths).
 WIN_MD_DIR="$(cd "$MD_DIR" && pwd -W 2>/dev/null || echo "$MD_DIR" | sed 's|^/\([a-zA-Z]\)/|\1:/|')"

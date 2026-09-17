@@ -48,6 +48,8 @@ render_section() {
   echo "- [データ作成スケジュール](#データ作成スケジュール)"
   echo "- [FTPについて](#ftpについて)"
   echo "- [Q&A](#qa)"
+  echo "- [会社情報](#会社情報)"
+  echo "- [EOS担当](#eos担当)"
   echo
   render_section docs/csv-format.md yes
   echo
@@ -56,6 +58,23 @@ render_section() {
   render_section docs/ftp.md yes
   echo
   render_section docs/faq.md no
+  echo
+  echo "## 会社情報"
+  echo
+  echo "| 項目 | 値 |"
+  echo "| --- | --- |"
+  echo "| 会社名 | 株式会社スーパーキタムラ |"
+  echo "| 所在地 | 東京都大田区南馬込4-21-10 |"
+  echo "| 店休日 | なし |"
+  echo "| 営業時間 | 9:30-22:00 |"
+  echo "| ホームページ | https://market.kita-grp.co.jp |"
+  echo "| TEL/FAX | 03-3771-8284 / 03-3774-9541 |"
+  echo "| 店舗数 | 1 |"
+  echo
+  echo "## EOS担当"
+  echo
+  echo "- 株式会社　スーパーキタムラ　EOS担当　北村　成吏"
+  echo "- Email: seiji_kitamura@kita-grp.co.jp"
 } | cat -s > "$OUT"
 
 echo "Wrote: $OUT"
