@@ -1,5 +1,7 @@
 # 株式会社　スーパーキタムラEOS仕様書
 
+リポジトリ: <https://github.com/SeijiKitamura/eos>
+
 ## 目次
 
 - [CSVファイル仕様](#csvファイル仕様)

@@ -40,6 +40,8 @@ render_section() {
 {
   echo "# ${TITLE}"
   echo
+  echo "リポジトリ: <https://github.com/SeijiKitamura/eos>"
+  echo
   echo "## 目次"
   echo
   echo "- [CSVファイル仕様](#csvファイル仕様)"
