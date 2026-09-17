@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>__TITLE__</title>
+<base href="__BASEDIR__">
+<style>
+@page {
+	@bottom-center {
+		content: counter(page);
+		font-family: "Segoe UI", "Meiryo", -apple-system, BlinkMacSystemFont, "Ubuntu", "Droid Sans", sans-serif;
+		font-size: 11px;
+		color: #444;
+	}
+}
+
+body {
+	font-family: "Segoe UI", "Meiryo", -apple-system, BlinkMacSystemFont, "Ubuntu", "Droid Sans", sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	padding: 0 26px;
+	word-wrap: break-word;
+	color: #1f1f1f;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	color: #0969da;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: rgba(0,0,0,0.18);
+	margin: 24px 0;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom: 1px solid rgba(0,0,0,0.18);
+}
+
+h1, h2, h3, h4 {
+	font-weight: 600;
+}
+
+h3 {
+	margin-top: 1.8em;
+	page-break-after: avoid;
+}
+
+h4 {
+	margin-top: 1.2em;
+	page-break-after: avoid;
+}
+
+h5 {
+	margin-top: 1em;
+	page-break-after: avoid;
+	color: #444;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 12px 0;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid rgba(0,0,0,0.69);
+	background-color: rgba(0,0,0,0.04);
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+	border: 1px solid rgba(0,0,0,0.18);
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 4px 16px;
+	border-left: 5px solid rgba(0,122,204,0.5);
+	background: rgba(127,127,127,0.08);
+	color: #444;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace;
+	font-size: 0.95em;
+	background-color: rgba(127,127,127,0.15);
+	padding: 0.1em 0.3em;
+	border-radius: 3px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	padding: 16px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre code {
+	background: none;
+	padding: 0;
+}
+
+/* GitHub-style alert callouts (> [!NOTE] / [!TIP] / [!IMPORTANT] etc.) */
+div.note, div.tip, div.important, div.warning, div.caution {
+	margin: 10px 5px;
+	padding: 8px 16px;
+	border-left: 5px solid;
+	border-radius: 3px;
+}
+
+div.note > .title, div.tip > .title, div.important > .title,
+div.warning > .title, div.caution > .title {
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+div.note {
+	border-color: #0969da;
+	background: rgba(9,105,218,0.08);
+}
+div.note > .title { color: #0969da; }
+
+div.tip {
+	border-color: #1a7f37;
+	background: rgba(26,127,55,0.08);
+}
+div.tip > .title { color: #1a7f37; }
+
+div.important {
+	border-color: #8250df;
+	background: rgba(130,80,223,0.08);
+}
+div.important > .title { color: #8250df; }
+
+div.warning {
+	border-color: #9a6700;
+	background: rgba(154,103,0,0.08);
+}
+div.warning > .title { color: #9a6700; }
+
+div.caution {
+	border-color: #cf222e;
+	background: rgba(207,34,46,0.08);
+}
+div.caution > .title { color: #cf222e; }
+
+.page {
+	page-break-after: always;
+}
+</style>
+</head>
+<body>

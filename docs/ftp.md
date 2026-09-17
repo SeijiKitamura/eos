@@ -1,6 +1,6 @@
 # FTPについて
 
-[← EOS仕様書に戻る](../EOS仕様書.md)
+[← 仕様書に戻る](../specification.md)
 
 ## アカウント
 
